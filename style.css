@@ -1,3 +1,25 @@
 body{
     background-color: darkslateblue;
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(to bottom, #027896, #017c01, #ff0000);
+}
+banner{
+    height: 400px;
+    padding: 5rem;
+    
+}
+banner h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5rem;
+    color: #eefc30;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px black;
+}
+banner h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    color: lightcyan;
+    
 }
