@@ -1,11 +1,12 @@
 body{
-    background-color: darkslateblue;
-    font-family: 'Josefin Sans', sans-serif;
     background: linear-gradient(to bottom, #027896, #017c01, #ff0000);
+    font-family: 'Josefin Sans', sans-serif;
+    
 }
 banner{
     height: 400px;
     padding: 5rem;
+    
     
 }
 banner h1{
@@ -15,6 +16,7 @@ banner h1{
     color: #eefc30;
     font-weight: bolder;
     -webkit-text-stroke: 2px black;
+    
 }
 banner h2{
     text-align: center;
@@ -22,4 +24,47 @@ banner h2{
     font-size: 3rem;
     color: lightcyan;
     
+}
+#notice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+    padding: 1rem;
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 2rem 0;
+    box-shadow:0 0 10px white;
+    border: 5px double white;
+}
+#notice-txt{
+    width: 45%;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 2rem 0;
+    box-shadow: inset 0 0 25px #000;
+}
+#notice-txt p{
+    color: black;
+    text-align: justify;
+}
+#notice-img{
+    width: 40%;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 2rem 0;
+    box-shadow: inset 0 0 10px #000;
+}
+#notice-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem 0;
+}
+
+#venues{
+    margin: 10px auto;
+}
+#venues h2{
+    text-align: center;
+    color: black;
 }
