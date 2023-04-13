@@ -67,4 +67,16 @@ banner h2{
 #venues h2{
     text-align: center;
     color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#venues-container{
+    width: 90%;
+    margin: 5px auto;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+}
+.v-card{
+    grid-column: 1/2;
 }
